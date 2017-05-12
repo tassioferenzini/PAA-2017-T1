@@ -6,12 +6,14 @@ import os
 
 import question1
 import question2a
+import question2b
 import question3
 import CPUtimer
 
 QUESTIONS = {
     '1': question1.solve,
     '2a': question2a.solve,
+    '2b': question2b.solve,
     '3': question3.solve,
 }
 
