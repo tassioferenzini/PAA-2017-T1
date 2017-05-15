@@ -7,14 +7,18 @@ import os
 import question1
 import question2a
 import question2b
-import question3
+import question2c
+import question3a
+import question3b
 import CPUtimer
 
 QUESTIONS = {
     '1': question1.solve,
     '2a': question2a.solve,
     '2b': question2b.solve,
-    '3': question3.solve,
+    '2c': question2c.solve,
+    '3a': question3a.solve,
+    '3b': question3b.solve,
 }
 
 def usage():

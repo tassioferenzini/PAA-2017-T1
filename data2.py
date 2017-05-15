@@ -14,17 +14,14 @@ def parse_instance(instance_file):
          W = [0] * nb_items
          
          for line in lines[1:]:
-             #valores = text.split()
              if line[1:2]:
                  index = int(line[0])
                  profit = int(line[1])
                  weight = int(line[2])
-                 #print('index', index, "profit", profit, "weight", weight)
                  P[index - 1] = profit
                  W[index - 1] = weight
              else:
                 knapsack_size = int(line[0])
-                #print('knapsack_size', knapsack_size)
          return knapsack_size, P, W
 
 def instance_iterator(instance_path):
@@ -69,13 +66,3 @@ def print_solution(P, W, items_fractions, instance_name, question, timer):
     total_weight = sum(W[item - 1] * fract for item, fract in items_fractions)
     total_profit = sum(P[item - 1] * fract for item, fract in items_fractions)
     _print_solution(nb_items_used, total_weight, total_profit, items_fractions, instance_name, question, timer)
-    '''
-    print("Total time: " + str( timer.get_time() ) +" s")
-    print("Average time: " + str( timer.get_time("average","micro") ) +" \u00B5s")
-    print("Last call: " + str( timer.get_time("last","micro") ) +" \u00B5s")
-    print("Stamp 1 of the total: " + str( timer.get_stamp("total","si") ) ) 
-    print("Stamp 2 of the total: " + str( timer.get_stamp("total","clock") ) )
-    print("\nPattern that ignores zeros:")
-    print( timer.get_stamp("total","si",True) )
-    print( timer.get_stamp("total","clock",True) )
-    '''
