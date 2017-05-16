@@ -14,15 +14,18 @@ def parse_instance(instance_file):
         degree = int(lines[0][0])
         for line in lines[1:]:
             if polynomialA == []:
-                polynomialA.append(line)
+                for i in range(0,degree):
+                    polynomialA.append(int(line[i]))
             else: 
                 if line != []:
-                    polynomialB.append(line)
+                    for i in range(0,degree):
+                        polynomialB.append(int(line[i]))
+                        
     return degree, polynomialA, polynomialB
 
 def instance_iterator(instance_path):
     file_list = [f for f in os.listdir(instance_path)
-    if f.startswith('multp_2') and f.endswith('.dat')]
+    if f.startswith('multp_') and f.endswith('.dat')]
     for filename in sorted(file_list):
         path = os.path.join(instance_path, filename)
         g, p1, p2 = parse_instance(path)

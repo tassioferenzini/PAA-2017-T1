@@ -18,8 +18,8 @@ def mult(g, p1, p2):
     
     producto = []
         
-    for i in range(0, g+1):
-        for j in range(0, g+1):
-            producto.append(int(p1[0][i])*int(p2[0][j]))
+    for i in range(0, g):
+        for j in range(0, g):
+            producto.append(int(p1[i])*int(p2[j]))
             
     return producto
