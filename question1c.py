@@ -7,7 +7,7 @@ import CPUtimer
 
 from data1 import instance_iterator, print_solution
 
-def solve(instance_path, ini):
+def solve(instance_path):
     timer = CPUtimer.CPUTimer()
     for instance in instance_iterator(instance_path):
         verticeInicial = 1
