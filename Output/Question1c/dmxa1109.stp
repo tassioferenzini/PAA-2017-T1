@@ -1,0 +1,11 @@
+Caminho: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 50, 75, 100, 123, 146, 169, 190, 209, 227, 249, 272, 294, 318]
+
+Total time: 0.0290989875793 s
+Average time: 0.00727522373199 s
+Last call: 1.90734863281e-06 s
+Stamp 1 of the total: 0h 0m 0s 29ms 29098\u00B5s
+Stamp 2 of the total: 00:00:00.0029
+Pattern that ignores zeros:
+29ms 29098\u00B5s
+0029
+

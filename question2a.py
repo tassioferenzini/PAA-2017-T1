@@ -9,10 +9,11 @@ def solve(instance_path):
     timer = CPUtimer.CPUTimer()
     for instance in instance_iterator(instance_path):
         instance_name, k, P, W = instance
-        #print('Solving', instance_name)
         timer.reset()
         timer.start()
-        items = knapsack(k, P, W)
+        for i in range(0, 2):
+            items = knapsack(k, P, W)
+            timer.lap()
         timer.stop()
         print_solution(P, W, items, instance_name, '2a', timer)
 

@@ -11,7 +11,9 @@ def solve(instance_path):
         instance_name, k, P, W = instance
         timer.reset()
         timer.start()
-        items = knapsack(k, P, W)
+        for i in range(0, 2):
+            items = knapsack(k, P, W)
+            timer.lap()
         timer.stop()
         print_solution(P, W, items, instance_name, '2b', timer)
 

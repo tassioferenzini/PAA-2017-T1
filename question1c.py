@@ -14,6 +14,8 @@ def solve(instance_path):
         instance_name, numVertices, numArestas, matrizAdjacencia = instance
         timer.reset()
         timer.start()
-        distances, predecessors = dijkstra (matrizAdjacencia, indices=verticeInicial, return_predecessors=True, unweighted=False)
+        for i in range(0, 2):  
+            distances, predecessors = dijkstra (matrizAdjacencia, indices=verticeInicial, return_predecessors=True, unweighted=False)
+            timer.lap()
         timer.stop()
         print_solution(verticeInicial, distances, predecessors, instance_name, '1c', timer)
