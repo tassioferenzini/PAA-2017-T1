@@ -13,6 +13,7 @@ import question2b
 import question2c
 import question3a
 import question3b
+import question3c
 import CPUtimer
 
 QUESTIONS = {
@@ -24,6 +25,7 @@ QUESTIONS = {
     '2c': question2c.solve,
     '3a': question3a.solve,
     '3b': question3b.solve,
+    '3c': question3c.solve,
 }
 
 def usage():

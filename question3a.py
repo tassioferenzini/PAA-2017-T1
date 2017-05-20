@@ -7,9 +7,9 @@ from data3 import instance_iterator, print_solution
 def solve(instance_path):
     timer = CPUtimer.CPUTimer()
     for instance in instance_iterator(instance_path):
-        instance_name, g, p1, p2 = instance
         timer.reset()
         timer.start()
+        instance_name, g, p1, p2 = instance
         for i in range(0, 2): 
             result = mult(g, p1, p2)
             timer.lap()
