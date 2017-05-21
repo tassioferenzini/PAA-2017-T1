@@ -14,8 +14,10 @@ def solve(instance_path):
         instance_name, numVertices, numArestas, tree = instance
         timer.reset()
         timer.start()
-        for i in range(0, 2):  
+        for i in range(0, 1):  
             distances, predecessors = dijkstra (tree, indices=verticeInicial, return_predecessors=True, unweighted=False)
             timer.lap()
         timer.stop()
         print_solution(verticeInicial, distances, predecessors, instance_name, '1b', timer)
+
+

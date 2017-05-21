@@ -19,8 +19,8 @@ def solve(instance_path):
 
 def knapsack(k, P, W):
     items = [(i + 1, w, p / w) for i, (p, w) in enumerate(zip(P, W))]
-    #pivot = findMoM(items)
-    pivot = selectPivot(items, k)
+    pivot = findMoM(items)
+    #pivot = selectPivot(items, k)
     x = [0] * len(P)
     weight = 0
     s = 0

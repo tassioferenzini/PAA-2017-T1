@@ -193,6 +193,38 @@ def parse_instance(instance_file):
 
         return numVertices, numArestas, matrizAdjacencia
 
+def parse_instanceB(instance_file):
+    with open(instance_file) as f:
+        conteudo = f.readlines()
+        lines = [t.strip() for t in conteudo]
+
+        graph = []
+        countlines = 1
+        for i in lines:
+            if ("Section Graph" in i):
+                break
+            countlines += 1
+
+        while (lines[countlines] != "End"):
+            graph.append(lines[countlines].split())
+            countlines += 1
+
+        numVertices = int(graph[0][1])
+        numArestas = int(graph[1][1])
+     
+        g = Graph()
+     
+        for i in range(numVertices+1):
+            g.add_vertex(i)
+
+        for i in range(2, len(graph)):
+            verticePeso = []
+            verticePeso.append(int(graph[i][2]))
+            verticePeso.append(int(graph[i][3]))
+            g.add_edge(int(graph[i][2]), int(graph[i][3]), verticePeso)
+
+        return numVertices, numArestas, g
+
 def parse_instanceL(instance_file):
     with open(instance_file) as f:
         conteudo = f.readlines()
@@ -263,6 +295,14 @@ def instance_iterator(instance_path):
         path = os.path.join(instance_path, filename)
         numVertices, numArestas, matrizAdjacencia = parse_instance(path)
         yield (filename[0:-4], numVertices, numArestas, matrizAdjacencia)
+
+def instance_iteratorB(instance_path):
+    file_list = [f for f in os.listdir(instance_path)
+    if f.endswith('.stp')]
+    for filename in sorted(file_list):
+        path = os.path.join(instance_path, filename)
+        numVertices, numArestas, g = parse_instanceB(path)
+        yield (filename[0:-4], numVertices, numArestas, g)
 
 def instance_iteratorL(instance_path):
     file_list = [f for f in os.listdir(instance_path)
