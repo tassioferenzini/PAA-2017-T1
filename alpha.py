@@ -357,9 +357,9 @@ class Graph:
         return t.printTree()
 
 
-def solve(instance_path):
+if __name__ == '__main__':
+
     timer = CPUtimer.CPUTimer()
-    
     instance_path = "ALUE/"
 
     file_list = [f for f in os.listdir(instance_path)
@@ -406,9 +406,9 @@ def solve(instance_path):
 
             timer.reset()
             timer.start()
-            for i in range(0, 2):
-                caminho = g.alpha(1, 13, numVertices)
-                timer.lap()
+            #for i in range(0, 2):
+            caminho = g.alpha(1, 13, numVertices)
+            #    timer.lap()
             timer.stop()
             
             if not os.path.exists("Output/Question" + str("1e")):

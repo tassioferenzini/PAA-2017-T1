@@ -160,8 +160,6 @@ class Graph:
             #print('distancia da origem', g.get_vertex(vertex).get_distance_from_source())
             #print 'predecessor ', g.get_vertex(vertex).get_predecessor()
 
-        #print 'caminho mais curto de 0 ate i=3, exemplo'
-
         caminho = []
 
         i=numberofvertexes-1

@@ -9,6 +9,7 @@ import question1a
 import question1b
 import question1c
 import question1d
+import question1e
 import question2a
 import question2b
 import question2c
@@ -22,6 +23,7 @@ QUESTIONS = {
     '1b': question1b.solve,
     '1c': question1c.solve,
     '1d': question1d.solve,
+    '1e': question1e.solve,
     '2a': question2a.solve,
     '2b': question2b.solve,
     '2c': question2c.solve,
