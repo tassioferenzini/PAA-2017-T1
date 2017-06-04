@@ -32,6 +32,7 @@ def knapsack(k, P, W):
     items = iter(items)
     menoresPivot = []
    
+   # percorre caras maiores que o pivot
     while (s < e):
         i, w, r = next(items)
         if r >= pivot[2]:
