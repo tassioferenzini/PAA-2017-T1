@@ -1,11 +1,13 @@
 Polinomio Resultante
-[480, 1440, 2256, 330, 990, 1551, 450, 1350, 2115]
+[480, 1770, 3696, 2901, 2115]
 
-Total time: 4.38690185547e-05 s
-Average time: 11.2056732178 \u00B5s
-Last call: 0.953674316406 \u00B5s
-Stamp 1 of the total: 0h 0m 0s 0ms 43\u00B5s
+
+Total time: 3.62396240234e-05 s
+Average time: 5.90085983276e-06 s
+Last call: 9.53674316406e-07 s
+Stamp 1 of the total: 0h 0m 0s 0ms 36\u00B5s
 Stamp 2 of the total: 00:00:00.0000
 Pattern that ignores zeros:
-43\u00B5s
+36\u00B5s
 0000
+

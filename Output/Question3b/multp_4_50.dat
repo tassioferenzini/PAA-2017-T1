@@ -1,11 +1,13 @@
 Polinomio Resultante
-[1681, 988, 630, 276]
+[ 1681.  2624.  3161.  3029.  1816.  1021.   276.]
 
-Total time: 7.72476196289e-05 s
-Average time: 19.8483467102 \u00B5s
-Last call: 2.14576721191 \u00B5s
-Stamp 1 of the total: 0h 0m 0s 0ms 77\u00B5s
+
+Total time: 0.00022029876709 s
+Average time: 5.53727149963e-05 s
+Last call: 1.19209289551e-06 s
+Stamp 1 of the total: 0h 0m 0s 0ms 220\u00B5s
 Stamp 2 of the total: 00:00:00.0000
 Pattern that ignores zeros:
-77\u00B5s
+220\u00B5s
 0000
+

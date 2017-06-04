@@ -1,11 +1,13 @@
 Polinomio Resultante
-[680, 1008, 36]
+[  680.  1908.  2252.   906.    36.]
 
-Total time: 5.41210174561e-05 s
-Average time: 14.0070915222 \u00B5s
-Last call: 1.90734863281 \u00B5s
-Stamp 1 of the total: 0h 0m 0s 0ms 54\u00B5s
+
+Total time: 0.000245809555054 s
+Average time: 6.19292259216e-05 s
+Last call: 1.90734863281e-06 s
+Stamp 1 of the total: 0h 0m 0s 0ms 245\u00B5s
 Stamp 2 of the total: 00:00:00.0000
 Pattern that ignores zeros:
-54\u00B5s
+245\u00B5s
 0000
+

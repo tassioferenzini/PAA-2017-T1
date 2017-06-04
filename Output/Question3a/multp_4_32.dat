@@ -1,11 +1,13 @@
 Polinomio Resultante
-[99, 726, 1617, 1122, 120, 880, 1960, 1360, 33, 242, 539, 374, 102, 748, 1666, 1156]
+[99, 846, 2530, 3426, 2647, 2040, 1156]
 
-Total time: 5.10215759277e-05 s
-Average time: 12.993812561 \u00B5s
-Last call: 0.953674316406 \u00B5s
-Stamp 1 of the total: 0h 0m 0s 0ms 51\u00B5s
+
+Total time: 4.50611114502e-05 s
+Average time: 7.36117362976e-06 s
+Last call: 9.53674316406e-07 s
+Stamp 1 of the total: 0h 0m 0s 0ms 45\u00B5s
 Stamp 2 of the total: 00:00:00.0000
 Pattern that ignores zeros:
-51\u00B5s
+45\u00B5s
 0000
+

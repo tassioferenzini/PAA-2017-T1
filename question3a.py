@@ -10,7 +10,7 @@ def solve(instance_path):
         timer.reset()
         timer.start()
         instance_name, g, p1, p2 = instance
-        for i in range(0, 2): 
+        for i in range(0, 3): 
             result = mult(g, p1, p2)
             timer.lap()
         timer.stop()
@@ -18,10 +18,17 @@ def solve(instance_path):
 
 def mult(g, p1, p2):
     
-    producto = []
-        
-    for i in range(0, g):
-        for j in range(0, g):
-            producto.append(int(p1[i])*int(p2[j]))
-            
-    return producto
+    pot1 = 0
+    pot2 = 0
+    R = []
+    for i in range(0, len(p1) + len(p2)-1):
+        R.append(0)
+
+    for i in p1:
+        pot2 = 0
+        for j in p2:
+            R[pot1 + pot2] = i * j + R[pot1 + pot2]
+            pot2 += 1
+        pot1 += 1
+    
+    return R

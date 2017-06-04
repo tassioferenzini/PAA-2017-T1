@@ -1,11 +1,13 @@
 Polinomio Resultante
-[357, 966, 442, 1196]
+[357, 1408, 1196]
 
-Total time: 2.71797180176e-05 s
-Average time: 7.09295272827 \u00B5s
-Last call: 1.19209289551 \u00B5s
-Stamp 1 of the total: 0h 0m 0s 0ms 27\u00B5s
+
+Total time: 3.5285949707e-05 s
+Average time: 5.90085983276e-06 s
+Last call: 1.90734863281e-06 s
+Stamp 1 of the total: 0h 0m 0s 0ms 35\u00B5s
 Stamp 2 of the total: 00:00:00.0000
 Pattern that ignores zeros:
-27\u00B5s
+35\u00B5s
 0000
+

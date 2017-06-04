@@ -1,11 +1,13 @@
 Polinomio Resultante
-[174, 58, 116, 18, 6, 12, 240, 80, 160]
+[174, 76, 362, 92, 160]
 
-Total time: 6.67572021484e-05 s
-Average time: 17.1661376953 \u00B5s
-Last call: 1.90734863281 \u00B5s
-Stamp 1 of the total: 0h 0m 0s 0ms 66\u00B5s
+
+Total time: 5.07831573486e-05 s
+Average time: 8.88109207153e-06 s
+Last call: 3.09944152832e-06 s
+Stamp 1 of the total: 0h 0m 0s 0ms 50\u00B5s
 Stamp 2 of the total: 00:00:00.0000
 Pattern that ignores zeros:
-66\u00B5s
+50\u00B5s
 0000
+

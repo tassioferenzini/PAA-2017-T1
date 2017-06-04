@@ -1,11 +1,13 @@
 Polinomio Resultante
-[273, 364, 559, 377, 273, 364, 559, 377, 966, 1288, 1978, 1334, 21, 28, 43, 29]
+[273, 637, 1889, 2245, 2383, 1377, 29]
 
-Total time: 9.96589660645e-05 s
-Average time: 25.6299972534 \u00B5s
-Last call: 2.86102294922 \u00B5s
-Stamp 1 of the total: 0h 0m 0s 0ms 99\u00B5s
+
+Total time: 4.55379486084e-05 s
+Average time: 7.7486038208e-06 s
+Last call: 2.14576721191e-06 s
+Stamp 1 of the total: 0h 0m 0s 0ms 45\u00B5s
 Stamp 2 of the total: 00:00:00.0000
 Pattern that ignores zeros:
-99\u00B5s
+45\u00B5s
 0000
+

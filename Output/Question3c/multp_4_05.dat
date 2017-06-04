@@ -1,11 +1,13 @@
 Polinomio Resultante
-[ 2996.+0.j  3260.+0.j  5172.+0.j  4348.+0.j]
+[  749.+0.j  1087.+0.j  1293.+0.j   815.+0.j]
 
-Total time: 0.000102043151855 s
-Average time: 25.749206543 \u00B5s
-Last call: 0.953674316406 \u00B5s
-Stamp 1 of the total: 0h 0m 0s 0ms 102\u00B5s
+
+Total time: 0.000229120254517 s
+Average time: 5.78165054321e-05 s
+Last call: 2.14576721191e-06 s
+Stamp 1 of the total: 0h 0m 0s 0ms 229\u00B5s
 Stamp 2 of the total: 00:00:00.0000
 Pattern that ignores zeros:
-102\u00B5s
+229\u00B5s
 0000
+

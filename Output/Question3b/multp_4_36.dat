@@ -1,11 +1,13 @@
 Polinomio Resultante
-[1419, 69, 216, 1034]
+[ 1419.  1088.  1515.  3343.  1363.  1074.  1034.]
 
-Total time: 6.07967376709e-05 s
-Average time: 15.6760215759 \u00B5s
-Last call: 1.90734863281 \u00B5s
-Stamp 1 of the total: 0h 0m 0s 0ms 60\u00B5s
+
+Total time: 0.000247955322266 s
+Average time: 6.24656677246e-05 s
+Last call: 1.90734863281e-06 s
+Stamp 1 of the total: 0h 0m 0s 0ms 247\u00B5s
 Stamp 2 of the total: 00:00:00.0000
 Pattern that ignores zeros:
-60\u00B5s
+247\u00B5s
 0000
+

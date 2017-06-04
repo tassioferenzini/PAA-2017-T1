@@ -1,11 +1,13 @@
 Polinomio Resultante
-[84, 4]
+[ 84.  38.   4.]
 
-Total time: 3.31401824951e-05 s
-Average time: 8.82148742676 \u00B5s
-Last call: 2.14576721191 \u00B5s
-Stamp 1 of the total: 0h 0m 0s 0ms 33\u00B5s
+
+Total time: 0.000230073928833 s
+Average time: 5.80549240112e-05 s
+Last call: 2.14576721191e-06 s
+Stamp 1 of the total: 0h 0m 0s 0ms 230\u00B5s
 Stamp 2 of the total: 00:00:00.0000
 Pattern that ignores zeros:
-33\u00B5s
+230\u00B5s
 0000
+

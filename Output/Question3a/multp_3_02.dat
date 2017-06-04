@@ -1,11 +1,13 @@
 Polinomio Resultante
-[1472, 32, 416, 460, 10, 130, 598, 13, 169]
+[1472, 492, 1024, 143, 169]
 
-Total time: 7.72476196289e-05 s
-Average time: 20.0867652893 \u00B5s
-Last call: 3.09944152832 \u00B5s
-Stamp 1 of the total: 0h 0m 0s 0ms 77\u00B5s
+
+Total time: 3.62396240234e-05 s
+Average time: 5.90085983276e-06 s
+Last call: 9.53674316406e-07 s
+Stamp 1 of the total: 0h 0m 0s 0ms 36\u00B5s
 Stamp 2 of the total: 00:00:00.0000
 Pattern that ignores zeros:
-77\u00B5s
+36\u00B5s
 0000
+

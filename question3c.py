@@ -13,7 +13,7 @@ def solve(instance_path):
         timer.reset()
         timer.start()
         for i in range(0, 2): 
-            result = fft(fft(p1)*fft(p2))
+            result = ifft(fft(p1)*fft(p2))
             timer.lap()
         timer.stop()
         print_solution(result, instance_name, '3c', timer)

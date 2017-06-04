@@ -1,11 +1,13 @@
 Polinomio Resultante
-[585, 0, 156, 228]
+[  585.   416.  1807.  3036.  1372.   386.   228.]
 
-Total time: 4.60147857666e-05 s
-Average time: 12.0401382446 \u00B5s
-Last call: 2.14576721191 \u00B5s
-Stamp 1 of the total: 0h 0m 0s 0ms 46\u00B5s
+
+Total time: 0.000216007232666 s
+Average time: 5.42402267456e-05 s
+Last call: 9.53674316406e-07 s
+Stamp 1 of the total: 0h 0m 0s 0ms 216\u00B5s
 Stamp 2 of the total: 00:00:00.0000
 Pattern that ignores zeros:
-46\u00B5s
+216\u00B5s
 0000
+

@@ -1,11 +1,13 @@
 Polinomio Resultante
-[78, 672, 464, 0]
+[   78.  1290.  1474.  2188.  1010.   624.]
 
-Total time: 5.50746917725e-05 s
-Average time: 14.0070915222 \u00B5s
-Last call: 0.953674316406 \u00B5s
-Stamp 1 of the total: 0h 0m 0s 0ms 55\u00B5s
+
+Total time: 0.000277042388916 s
+Average time: 7.00354576111e-05 s
+Last call: 3.09944152832e-06 s
+Stamp 1 of the total: 0h 0m 0s 0ms 277\u00B5s
 Stamp 2 of the total: 00:00:00.0000
 Pattern that ignores zeros:
-55\u00B5s
+277\u00B5s
 0000
+

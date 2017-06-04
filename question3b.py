@@ -1,6 +1,8 @@
 from __future__ import print_function
 
 import CPUtimer
+from numpy.polynomial import polynomial as P
+
 
 from data3 import instance_iterator, print_solution
 
@@ -13,7 +15,7 @@ def solve(instance_path):
         timer.reset()
         timer.start()
         for i in range(0, 2): 
-            result = mult(g, p1, p2)
+            result = P.polymul(p1, p2) #mult(g, p1, p2)
             timer.lap()
         timer.stop()
         print_solution(result, instance_name, '3b', timer)

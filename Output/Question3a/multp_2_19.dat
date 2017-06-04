@@ -1,11 +1,13 @@
 Polinomio Resultante
-[203, 77, 696, 264]
+[203, 773, 264]
 
-Total time: 5.79357147217e-05 s
-Average time: 14.9607658386 \u00B5s
-Last call: 1.90734863281 \u00B5s
-Stamp 1 of the total: 0h 0m 0s 0ms 57\u00B5s
+
+Total time: 3.93390655518e-05 s
+Average time: 6.61611557007e-06 s
+Last call: 2.14576721191e-06 s
+Stamp 1 of the total: 0h 0m 0s 0ms 39\u00B5s
 Stamp 2 of the total: 00:00:00.0000
 Pattern that ignores zeros:
-57\u00B5s
+39\u00B5s
 0000
+

@@ -1,11 +1,13 @@
 Polinomio Resultante
-[612, 840]
+[  612.  1524.   840.]
 
-Total time: 5.1736831665e-05 s
-Average time: 13.4110450745 \u00B5s
-Last call: 1.90734863281 \u00B5s
-Stamp 1 of the total: 0h 0m 0s 0ms 51\u00B5s
+
+Total time: 0.000253915786743 s
+Average time: 6.3955783844e-05 s
+Last call: 1.90734863281e-06 s
+Stamp 1 of the total: 0h 0m 0s 0ms 253\u00B5s
 Stamp 2 of the total: 00:00:00.0000
 Pattern that ignores zeros:
-51\u00B5s
+253\u00B5s
 0000
+

@@ -360,7 +360,7 @@ class Graph:
 if __name__ == '__main__':
 
     timer = CPUtimer.CPUTimer()
-    instance_path = "falta/"
+    instance_path = "faltou/"
 
     file_list = [f for f in os.listdir(instance_path)
                  if f.endswith('.stp')]

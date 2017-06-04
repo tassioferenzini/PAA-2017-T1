@@ -1,11 +1,13 @@
 Polinomio Resultante
-[220, 528, 363, 495, 560, 1344, 924, 1260, 140, 336, 231, 315, 560, 1344, 924, 1260]
+[220, 1088, 1847, 2315, 2835, 1239, 1260]
 
-Total time: 9.58442687988e-05 s
-Average time: 24.4379043579 \u00B5s
-Last call: 1.90734863281 \u00B5s
-Stamp 1 of the total: 0h 0m 0s 0ms 95\u00B5s
+
+Total time: 6.62803649902e-05 s
+Average time: 1.08480453491e-05 s
+Last call: 2.14576721191e-06 s
+Stamp 1 of the total: 0h 0m 0s 0ms 66\u00B5s
 Stamp 2 of the total: 00:00:00.0000
 Pattern that ignores zeros:
-95\u00B5s
+66\u00B5s
 0000
+

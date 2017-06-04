@@ -1,11 +1,13 @@
 Polinomio Resultante
-[80, 60, 176, 841]
+[  80.  217.  452.  815.  669.  870.  841.]
 
-Total time: 5.41210174561e-05 s
-Average time: 13.8282775879 \u00B5s
-Last call: 1.19209289551 \u00B5s
-Stamp 1 of the total: 0h 0m 0s 0ms 54\u00B5s
+
+Total time: 0.000194072723389 s
+Average time: 4.90546226501e-05 s
+Last call: 2.14576721191e-06 s
+Stamp 1 of the total: 0h 0m 0s 0ms 194\u00B5s
 Stamp 2 of the total: 00:00:00.0000
 Pattern that ignores zeros:
-54\u00B5s
+194\u00B5s
 0000
+

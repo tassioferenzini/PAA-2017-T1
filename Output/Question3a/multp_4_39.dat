@@ -1,11 +1,13 @@
 Polinomio Resultante
-[450, 270, 270, 666, 0, 0, 0, 0, 575, 345, 345, 851, 500, 300, 300, 740]
+[450, 270, 845, 1511, 645, 1151, 740]
 
-Total time: 5.12599945068e-05 s
-Average time: 13.1130218506 \u00B5s
-Last call: 1.19209289551 \u00B5s
-Stamp 1 of the total: 0h 0m 0s 0ms 51\u00B5s
+
+Total time: 5.8650970459e-05 s
+Average time: 9.29832458496e-06 s
+Last call: 9.53674316406e-07 s
+Stamp 1 of the total: 0h 0m 0s 0ms 58\u00B5s
 Stamp 2 of the total: 00:00:00.0000
 Pattern that ignores zeros:
-51\u00B5s
+58\u00B5s
 0000
+

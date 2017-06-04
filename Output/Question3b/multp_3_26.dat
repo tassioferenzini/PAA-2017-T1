@@ -1,11 +1,13 @@
 Polinomio Resultante
-[120, 870, 432]
+[  120.   990.  1458.  1263.   432.]
 
-Total time: 6.79492950439e-05 s
-Average time: 17.2257423401 \u00B5s
-Last call: 0.953674316406 \u00B5s
-Stamp 1 of the total: 0h 0m 0s 0ms 67\u00B5s
+
+Total time: 0.00026273727417 s
+Average time: 6.61611557007e-05 s
+Last call: 1.90734863281e-06 s
+Stamp 1 of the total: 0h 0m 0s 0ms 262\u00B5s
 Stamp 2 of the total: 00:00:00.0000
 Pattern that ignores zeros:
-67\u00B5s
+262\u00B5s
 0000
+

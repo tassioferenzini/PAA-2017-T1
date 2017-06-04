@@ -1,11 +1,13 @@
 Polinomio Resultante
-[594, 189, 624, 224]
+[  594.   717.  1479.  2052.  1537.   950.   224.]
 
-Total time: 5.67436218262e-05 s
-Average time: 14.6627426147 \u00B5s
-Last call: 1.90734863281 \u00B5s
-Stamp 1 of the total: 0h 0m 0s 0ms 56\u00B5s
+
+Total time: 0.00028395652771 s
+Average time: 7.15255737305e-05 s
+Last call: 2.14576721191e-06 s
+Stamp 1 of the total: 0h 0m 0s 0ms 283\u00B5s
 Stamp 2 of the total: 00:00:00.0000
 Pattern that ignores zeros:
-56\u00B5s
+283\u00B5s
 0000
+
