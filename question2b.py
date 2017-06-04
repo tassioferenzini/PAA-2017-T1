@@ -5,8 +5,9 @@ import CPUtimer
 
 from data2 import instance_iterator, print_solution
 
-def solve(instance_path):
+def solve(instance_path):    
     timer = CPUtimer.CPUTimer()
+
     for instance in instance_iterator(instance_path):
         instance_name, k, P, W = instance
         timer.reset()
@@ -17,28 +18,48 @@ def solve(instance_path):
         timer.stop()
         print_solution(P, W, items, instance_name, '2b', timer)
 
+
 def knapsack(k, P, W):
     items = [(i + 1, w, p / w) for i, (p, w) in enumerate(zip(P, W))]
     pivot = findMoM(items)
     #pivot = selectPivot(items, k)
+    #pivot  = [5, 23, 1.0869565217391304]
+
     x = [0] * len(P)
     weight = 0
     s = 0
     e = len(items)
     items = iter(items)
+    menoresPivot = []
    
     while (s < e):
         i, w, r = next(items)
         if r >= pivot[2]:
-            x[i - 1] = 1
-            weight += w
-        s +=1
+            if weight + w <= k:
+                x[i - 1] = 1
+                weight = weight + w
+            else:
+                x[i - 1] = (k - weight) / w
+                weight = k
+        else:
+            menoresPivot.append([i,w,r])
+        s = s + 1
 
+    # Se ainda nao preencheu a capacidade total da mochila
     if weight < k:
-        x[i - 1] = (k - weight) / pivot[1]
-        weight = k
-        
-    return [ (i + 1, fract) for i, fract in enumerate(x) if fract > 0]
+        menoresPivot = sorted(menoresPivot, key=lambda t: t[2], reverse=True)
+        for indice in range(len(menoresPivot)):
+            i = menoresPivot[indice][0]
+            w = menoresPivot[indice][1]
+            r = menoresPivot[indice][2]
+            if weight + w <= k:
+                x[i - 1] = 1
+                weight = weight + w
+            else:
+                x[i - 1] = (k - weight) / w
+                weight = k
+
+    return [(i + 1, fract) for i, fract in enumerate(x) if fract > 0]
 
 def findMoM(A):
 
@@ -56,7 +77,7 @@ def findMoM(A):
 
     while(i < numGroups):
         j = (5*i)
-        Temp = sorted(A[j:j+5], key=lambda t: t[2], reverse=True)        
+        Temp = sorted(A[j:j+5], key=lambda t: t[2], reverse=True)  
         M.append(Temp[2])
         i += 1
 
@@ -67,7 +88,6 @@ def findMoM(A):
     return findMoM(M)
 
 def selectPivot(A, capacity):
-
     k = findMoM(A)
     Left =[]
     Right = []
@@ -78,11 +98,11 @@ def selectPivot(A, capacity):
     while(s < e):
         if(A[s][0] != k[0]):
             if A[s][2] < k[2]:
-                Left.append(A[s]) 
+                Left.append(A[s])
             else:
-                totalRight += A[s][1]
+                totalRight = totalRight + A[s][1]
                 Right.append(A[s])
-        s += 1    
+        s = s + 1
 
     if totalRight == capacity:
         return k 
