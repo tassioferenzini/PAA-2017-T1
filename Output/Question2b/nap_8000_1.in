@@ -2,14 +2,14 @@ Number of items 	Total Weight 	Total Profit
 3444 	1002377.0 	232385.20191 
 
 
-Total time: 0.165279865265 s
-Average time: 0.041320681572 s
+Total time: 0.156656742096 s
+Average time: 0.0391649007797 s
 Last call: 2.86102294922e-06 s
-Stamp 1 of the total: 0h 0m 0s 165ms 165279\u00B5s
-Stamp 2 of the total: 00:00:00.0165
+Stamp 1 of the total: 0h 0m 0s 156ms 156656\u00B5s
+Stamp 2 of the total: 00:00:00.0156
 Pattern that ignores zeros:
-165ms 165279\u00B5s
-0165
+156ms 156656\u00B5s
+0156
 
 Item    Fraction
 

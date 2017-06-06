@@ -23,13 +23,7 @@ def solve(instance_path):
 
 def knapsack(k, P, W):
     items = [(i + 1, w, p / w) for i, (p, w) in enumerate(zip(P, W))]
-    #pivot = findMoM(items)
-    #pivot = selectPivot(resultado, items, k)
     pivot = selectPivot(items, k)
-    #pivot  = [5, 23, 1.0869565217391304]
-
-    #for i in range(len(resultado)): 
-    #print ("resultado knpacsack: ", resultado)
 
     x = [0] * len(P)
     weight = 0
@@ -120,9 +114,7 @@ def selectPivot(A, capacity):
                 return k            
             else:
                 resultado.append(selectPivot(Left, capacity-totalRight-k[1]))
-                #print ("resultado 1: ", resultado)
                 return resultado
         else:
             resultado.append(selectPivot(Right, capacity))
-            #print ("resultado 2: ", resultado)
             return resultado
