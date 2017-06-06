@@ -21,12 +21,12 @@ def parse_instance(instance_file):
                  P[index - 1] = profit
                  W[index - 1] = weight
              else:
-                knapsack_size = int(line[0])
+                knapsack_size = float(line[0])
          return knapsack_size, P, W
 
 def instance_iterator(instance_path):
     file_list = [f for f in os.listdir(instance_path)
-    if f.startswith('m') and f.endswith('.in')]
+    if f.startswith('knap') and f.endswith('.in')]
     for filename in sorted(file_list):
         path = os.path.join(instance_path, filename)
         k, P, W = parse_instance(path)
@@ -40,7 +40,7 @@ def _print_solution(nb_items_used, total_weight, total_profit, items_fractions, 
         except OSError as exc: # Guard against race condition
                 raise
 
-    output = open((os.getcwd()+"/Output/Question"+str(question))+"/"+"m"+instance_name+".in", "w")
+    output = open((os.getcwd()+"/Output/Question"+str(question))+"/"+instance_name+".in", "w")
     
     output.write('{} \t{} \t{} \n'.format('Number of items','Total Weight',    'Total Profit'))
     output.write('{} \t{} \t{} \n'.format(nb_items_used, total_weight, total_profit))
