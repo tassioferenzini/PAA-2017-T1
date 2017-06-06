@@ -5,6 +5,8 @@ import CPUtimer
 
 from data2 import instance_iterator, print_solution
 
+resultado = []
+
 def solve(instance_path):    
     timer = CPUtimer.CPUTimer()
 
@@ -21,9 +23,13 @@ def solve(instance_path):
 
 def knapsack(k, P, W):
     items = [(i + 1, w, p / w) for i, (p, w) in enumerate(zip(P, W))]
-    pivot = findMoM(items)
-    #pivot = selectPivot(items, k)
+    #pivot = findMoM(items)
+    #pivot = selectPivot(resultado, items, k)
+    pivot = selectPivot(items, k)
     #pivot  = [5, 23, 1.0869565217391304]
+
+    #for i in range(len(resultado)): 
+    #print ("resultado knpacsack: ", resultado)
 
     x = [0] * len(P)
     weight = 0
@@ -36,6 +42,7 @@ def knapsack(k, P, W):
     while (s < e):
         i, w, r = next(items)
         if r >= pivot[2]:
+        #if r >= resultado[s][2]:
             if weight + w <= k:
                 x[i - 1] = 1
                 weight = weight + w
@@ -112,6 +119,10 @@ def selectPivot(A, capacity):
             if totalRight + k[1] >= capacity:
                 return k            
             else:
-               return selectPivot(Left, capacity-totalRight-k[1])
+                resultado.append(selectPivot(Left, capacity-totalRight-k[1]))
+                #print ("resultado 1: ", resultado)
+                return resultado
         else:
-            return selectPivot(Right, capacity)
+            resultado.append(selectPivot(Right, capacity))
+            #print ("resultado 2: ", resultado)
+            return resultado
