@@ -1,0 +1,15 @@
+Polinomio Resultante
+[ 19735181. +0.00000000e+00j  19695624. -2.52934204e-12j
+  19647679. +7.53175300e-12j ...,  19627864. +5.17586655e-11j
+  19716956. -1.14113163e-11j  19701059. -4.00765113e-12j]
+
+
+Total time: 0.0297491550446 s
+Average time: 0.00743782520294 s
+Last call: 2.14576721191e-06 s
+Stamp 1 of the total: 0h 0m 0s 29ms 29749\u00B5s
+Stamp 2 of the total: 00:00:00.0029
+Pattern that ignores zeros:
+29ms 29749\u00B5s
+0029
+

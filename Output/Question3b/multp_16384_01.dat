@@ -1,0 +1,13 @@
+Polinomio Resultante
+[  693.   798.  1584. ...,  2522.   683.  1540.]
+
+
+Total time: 0.125383853912 s
+Average time: 0.0313462018967 s
+Last call: 9.53674316406e-07 s
+Stamp 1 of the total: 0h 0m 0s 125ms 125383\u00B5s
+Stamp 2 of the total: 00:00:00.0125
+Pattern that ignores zeros:
+125ms 125383\u00B5s
+0125
+

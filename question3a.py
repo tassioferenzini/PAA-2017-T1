@@ -10,7 +10,7 @@ def solve(instance_path):
         timer.reset()
         timer.start()
         instance_name, g, p1, p2 = instance
-        for i in range(0, 3): 
+        for i in range(0, 2): 
             result = mult(g, p1, p2)
             timer.lap()
         timer.stop()

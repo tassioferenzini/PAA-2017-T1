@@ -1,0 +1,15 @@
+Polinomio Resultante
+[ 608028. +0.00000000e+00j  611333. -1.49213975e-12j
+  598045. +4.44562904e-13j ...,  609181. +2.06057393e-12j
+  620344. -5.09151240e-12j  609983. -1.00897068e-12j]
+
+
+Total time: 0.00118207931519 s
+Average time: 0.000296056270599 s
+Last call: 2.14576721191e-06 s
+Stamp 1 of the total: 0h 0m 0s 1ms 1182\u00B5s
+Stamp 2 of the total: 00:00:00.0001
+Pattern that ignores zeros:
+1ms 1182\u00B5s
+0001
+
